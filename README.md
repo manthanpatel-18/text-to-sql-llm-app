@@ -62,3 +62,48 @@ venv\Scripts\activate
 ```
 source venv/bin/activate
 ```
+### 3️⃣ Install dependencies
+```
+pip install -r requirements.txt
+```
+### 4️⃣ Set OpenAI API key
+
+Create a .env file:
+```
+OPENAI_API_KEY=your_api_key_here
+```
+### 5️⃣ Generate demo database
+```
+python generate_demo_db.py
+```
+### 6️⃣ Run the app
+```
+streamlit run app.py
+```
+## 💡 Example Questions
+
+- Total revenue by city
+- Show sales from Bengaluru
+- Average price of each product
+- Total quantity sold per product
+
+## 🎯 Learning Objective
+
+This project helps beginners:
+
+- Understand how SQL queries are structured
+- Learn JOINs, GROUP BY, and filters
+- See how AI can assist in data analysis
+
+## 📌 Future Enhancements
+
+- Multi-database support (MySQL, PostgreSQL)
+- Voice-to-SQL
+- SQL optimization suggestions
+- User authentication
+
+## 👤 Author
+
+**Manthan Patel**
+- Linkedin: [Manthan Patel](https://www.linkedin.com/in/manthan-patel18)
+- Portfolio: [yourwebsite.com](https://yourwebsite.com)
